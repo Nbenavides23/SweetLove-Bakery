@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, nav {
+    list-style: none;
+}
+body{
+     background: #fdf5e6; 
+}
+.menu-nav{
+    display:flex;
+    justify-content: row;
+    justify-content:center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(59, 82, 122);
+    font-family: 'Clicker Script', cursive;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(194, 115, 155);
+}
+
+.image-size-img-one {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.image-size-img-two {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+ }
+
+.image-size {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+.main_img{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+    z-index: 1;
+    border-radius: 85%;
+    width: 400px;
+    height: 400px;
+}
+
+.wedding {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(183, 158, 121);
+}
+.cookies {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(183, 158, 121);
+}
+.muffins {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(183, 158, 121);
+}
+.about {
+    width: 600px;
+    height: 600px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 85px;
+    border: 1px solid black;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+}
+.card {
+    margin-top: 20px;
+}
+.card-body{
+    margin-top: -500px;
+    margin-left: 700px;
+    font-size: 16px;
+    font-family: 'Forum', cursive;
+}
+
+#description{
+    margin: 0;
+    text-align: center;
+}
+
+#title{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 28%;
+    font-family: 'Forum', cursive;
+    color: rgb(73, 126, 164);
+    z-index: 2;
+}
+#name{
+    text-align: center;
+    color: rgb(73, 126, 164);
+    font-family: 'Forum', cursive;
+    font-size: 72px;
+}
+/********************* Footer Section *********************/
+@media (max-width: 600px) {
+    .footer {
+        padding: 50px 50px;
+        justify-content: space-between;
+    }
+}
+.icon-list{
+    display:flex;
+    justify-content: row;
+    justify-content:flex-end;
+    align-items: baseline;  
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 100px;
+}

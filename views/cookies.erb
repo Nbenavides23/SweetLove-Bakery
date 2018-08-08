@@ -1,0 +1,19 @@
+<div id="name"><h1 class="animated 2s flip">SweetLove Bakery</h1></div>
+<div class="container">
+    <div class="row">
+        <% @cookies.each do |x| %>
+            <div class="col-xs">
+                    <div class="card">
+                        <img class="cookies" src=<%=x.images%>>
+                            <p id="description"> <%= x.description%> </p>
+                            <p> $ <%= x.price%> </p>
+                    </div>
+            </div>
+        <%end%>
+    </div>
+</div>
+
+
+
+
+
